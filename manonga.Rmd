@@ -1,0 +1,41 @@
+Habitat Reconstruction Based on a Blind Test of Micromammal Evidence from East Africa
+========================================================
+
+Denné Reed, Department of Anthropology, University of Texas at Austin
+Wendy Dirks, School of Dental Sciences, Newcastle University, UK 
+Laura McMaster, Children’s Healthcare of Atlanta
+Terry Harrison,
+
+# Introduction
+
+# Study Area and Collection Methods
+
+# Materials and Analytical Methods
+
+```{r}
+approd<-read.csv("ser-amb-har.csv")
+attach(approd)
+approd.x<-xtabs(MNI~site_label+taxon)
+detach(approd)
+head(approd.x)
+```
+
+# Rodents from Manonga
+
+# Results of the Blind Test
+
+# Discussion
+
+# Conclusions
+
+# References
+
+
+
+
+You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+
